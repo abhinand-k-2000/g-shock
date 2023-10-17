@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    color:#fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading{
+    display: flex;
+    height: 30px;
+    background: #fff;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.heading p{
+    margin-right: 55px;
+    font-size: 12px;
+    color: black;
+}
+.heading p:hover{
+    text-decoration: underline;
+}
+.nav{
+    height: 70px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.elements ul li{
+    list-style: none;
+    display: inline;
+}
+.logo{
+    margin-left: 49px;
+    cursor: pointer;
+}
+.elements{
+    margin-right: 173px;
+    font-size: 14px;
+}
+
+.lists{
+    position: relative;
+}
+.lists:hover::after{                                      /*hovering*/
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    border-bottom: 2px solid #fff ;
+}
+
+.search-bar{
+    margin-right: 62px;
+}
+.search-bar input{
+    border: 0;
+    border-bottom: 1px solid;
+    background: transparent;                                /*extra hover*/
+}
+
+
+
+.search-bar i{
+    right: 64px;
+    position: absolute;
+    top: 50px;
+    cursor: pointer;
+}
+.elements ul li{
+    margin-left: 51px; 
+}
+.elements a{
+    text-decoration: none;
+}
+
+
+
+
+
+.part-1{
+    height: 610px;
+    background-image: url(https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/carousel/item_1663723241517_c.casiocoreimg.jpeg/1669102140704/banner-flare-red-pc.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dottedlines h1{ 
+    font-weight: bolder;
+    width: 230px;
+    color: gray;
+    word-spacing: 13px;
+}
+.content h1{
+    color: black;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+.part-2 button{
+    background: black;
+    margin-top: 53px;
+    padding: 15px 90px;
+    cursor: pointer;
+}
+.part-2 button:hover{
+    background: gray;
+    border: 0;
+}
+
+
+
+
+.part-3 h1{
+    margin-top: 60px;
+    margin-left: 55px;
+    color: black;
+    font-size: 35px
+}
+.container{
+    display: flex;
+    padding: 0 61px;
+    cursor: pointer;
+    
+}
+
+
+.box img{
+    height: 270px;                              /*hovering*/
+    width: 270px;
+    margin-right: 15px;
+    margin-top: 40px;
+    transition: 0.5s;
+   
+}
+.box img:hover{                        
+    transform: scale(1.1);
+    
+
+}
+.box-4 img{
+    height: 270px;
+    width: 245px;
+}
+.desc{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box p{
+    color: black;
+    font-weight: lighter;
+    margin-top: 14px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.part-3 hr{
+    margin-left: 62px;
+    width: 91%;
+    margin-top: 36px;
+    border: 1px solid #a1a7b3;
+    
+}
+
+
+.container-1{
+    display: flex;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.part4box img{
+    width: 350px;
+    height: 320px;
+    margin-top: 73px;
+    transition: 0.5s;
+}
+.part4box img:hover{                            /*hovering */
+    transform: scale(1.1);
+}
+
+
+.part4box h3{
+    color: #fff;
+    background-color: black;
+    padding: 20px 10px;
+}
+
+.container-2{
+    display: flex;
+    position: relative;
+    padding-left: 25px;
+    bottom: 73px;
+    cursor: pointer;
+}
+.container-1 h3, .container-2 h3{
+    margin-top: -4px;
+}
+
+
+.footer{
+    height: 350px;
+    background: black;
+}
+
+.footercontents{
+    height: 245px;
+    display: flex;
+    justify-content: space-around;
+}
+.footercontents ul li{
+    color:#5a5a5a;
+    list-style: none;
+    top: 34px;
+    text-align: left;
+    position: relative;
+    right: 40px;
+    line-height: 3;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.footcontone{
+    position: relative;
+    margin-top: 26px;
+    left: 19px;
+}
+
+.footconttwo{
+    position: relative;
+    margin-top: 26px;
+    right: 117px;
+}
+.footcontthree{
+    position: relative;
+    margin-top: 26px;
+    right: 17%;
+}
+.socials{
+    margin-left: 32px;
+    word-spacing: 16px;
+    font-size: 22px;
+}
+.socials i{
+    cursor: pointer;
+}
+.policy{
+    margin-left: -38px;
+    margin-top: 22px;
+}
+.policy ul li{
+    list-style: none;
+    display: inline;
+    font-size: 13px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 9px;
+    margin-left: 31px;
+    font-size: 10px;
+}
